@@ -1,0 +1,44 @@
+{
+  "stream_mode": false,
+  "preset": "720p",
+  "presets": {
+    "720p": {
+      "width": 720,
+      "height": 1280
+    },
+    "1080p": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "fullscreen": false,
+  "borderless": false,
+  "fps": 60,
+  "audio": {
+    "enabled": true,
+    "device": "",
+    "volume": 0.75,
+    "fallback_to_default": true
+  },
+  "round": {
+    "count_per_type": 22,
+    "restart_delay": 4.0,
+    "piece_size": 18,
+    "speed_min": 55,
+    "speed_max": 115,
+    "seek_radius": 280,
+    "seek_strength": 18
+  },
+  "events": {
+    "server_enabled": true,
+    "host": "127.0.0.1",
+    "port": 8765,
+    "small_spawn_count": 3,
+    "medium_spawn_count": 8,
+    "large_spawn_count": 12,
+    "medium_effect_seconds": 10.0,
+    "large_effect_seconds": 12.0,
+    "large_event_cooldown": 8.0,
+    "max_recent_events": 8
+  }
+}

@@ -1,0 +1,3 @@
+__pycache__/
+*.pyc
+stream_scores.json
